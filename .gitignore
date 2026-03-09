@@ -30,7 +30,6 @@ yarn-error.log*
 
 # Local env files
 .env*.local
-.env
 
 # Vector store manifest
 scripts/.vector-manifest.json
@@ -42,3 +41,4 @@ gitcoin_co_30/.next/
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+config.bat
