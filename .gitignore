@@ -21,6 +21,7 @@
 
 # Dev
 .next/
+**/.next/
 
 
 # Debug
@@ -30,7 +31,6 @@ yarn-error.log*
 
 # Local env files
 .env*.local
-.env
 
 # Vector store manifest
 scripts/.vector-manifest.json
@@ -41,3 +41,4 @@ scripts/.vector-manifest.json
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+config.bat
