@@ -21,6 +21,7 @@
 
 # Dev
 .next/
+**/.next/
 
 
 # Debug
@@ -30,10 +31,10 @@ yarn-error.log*
 
 # Local env files
 .env*.local
-.env
 
 # Vector store manifest
 scripts/.vector-manifest.json
+gitcoin_co_30/.next/
 
 # Vercel
 .vercel
@@ -41,3 +42,4 @@ scripts/.vector-manifest.json
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
+config.bat
