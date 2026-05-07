@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Fund What Matters",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "publish-case-study": "npx tsx scripts/publish-case-study.ts",
     "publish-app": "npx tsx scripts/publish-app.ts",
